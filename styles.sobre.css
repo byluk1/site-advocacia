@@ -12,7 +12,7 @@
 .navbar {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 80px;
 
 }
 
@@ -32,7 +32,7 @@
   justify-content: center;
   color: #f9c700;
   font-weight: bold;
-  font-size: 1.8vh;
+  font-size: 40px;
 }
 
 .section-sobre {
@@ -55,7 +55,7 @@
 .section-sobre p {
   color: #F5F5DC;
   font-family: Arial, sans-serif;
-  font-size: 2em;
+  font-size: 30px;
 
 }
 
@@ -67,7 +67,7 @@ footer {
 }
 
 @media (max-width: 1200px) {
-  .site-header {
+   .site-header {
     background-color: #3c4955;
   }
 
@@ -81,7 +81,7 @@ footer {
   .link {
     text-decoration: none;
     color: white;
-    font-size: 2vh;
+    font-size: 2.5vh;
 
   }
 
@@ -94,7 +94,7 @@ footer {
     justify-content: center;
     color: #f9c700;
     font-weight: bold;
-    font-size: 1.8vh;
+    font-size: 2.5vh;
   }
   .section-sobre {
   background-color: #1b1c21;
@@ -105,7 +105,13 @@ footer {
   margin: auto;
   text-align: center;
   background-color: #1b1c21;
-  font-size: 10px;
+  font-size: 1vh;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+
 }
 
 

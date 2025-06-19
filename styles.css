@@ -10,6 +10,9 @@
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #21373d;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .body-sobre {
@@ -19,7 +22,7 @@
 
 }
 
-/* Header e Navbar */
+
 .site-header {
   background-color: #3c4955;
 }
@@ -37,13 +40,14 @@
   font-size: 20px;
 
 }
+
 .logo-text {
-      display: flex;
-      justify-content: center;
-      color: #f9c700;
-      font-weight: bold;
-      font-size: 1.8vh;
-    }
+  display: flex;
+  justify-content: center;
+  color: #f9c700;
+  font-weight: bold;
+  font-size: 40px;
+}
 
 .imagem-logo {
   width: 100%;
@@ -149,34 +153,47 @@ footer {
 }
 
 /* Responsividade */
-  @media (max-width: 900px) {
-    .site-header {
-      background-color: #3c4955;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-
-    }
-
-    .link {
-      text-decoration: none;
-      color: white;
-      font-size: 2.5vh;
-
-    }
-
-    .link:hover {
-      color: #f9c700;
-    }
-
-    .logo-text {
-      display: flex;
-      justify-content: center;
-      color: #f9c700;
-      font-weight: bold;
-      font-size: 2.5vh;
-    }
+@media (max-width: 900px) {
+  .site-header {
+    background-color: #3c4955;
   }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vh;
+
+  }
+
+  .link:hover {
+    color: #f9c700;
+  }
+
+  .logo-text {
+    display: flex;
+    justify-content: center;
+    color: #f9c700;
+    font-weight: bold;
+    font-size: 2.5vh;
+  }
+
+  .section {
+    text-align: center;
+    color: #F5F5DC;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .section-card {
+    text-align: center;
+  }
+
+}
