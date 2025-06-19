@@ -38,6 +38,7 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
+  font-family: 'Merriweather', serif;
 
 }
 
@@ -47,6 +48,7 @@
   color: #f9c700;
   font-weight: bold;
   font-size: 40px;
+  font-family: 'Merriweather', serif;
 }
 
 .imagem-logo {
@@ -80,11 +82,15 @@
   color: #F5F5DC;
   margin-bottom: 20px;
   font-size: 2rem;
+  font-family: 'Merriweather', serif;
+}
+.section p {
+  font-family: 'Libre Baskerville', serif;
 }
 
 /* Cards */
 .cards {
-
+  font-family: 'Merriweather', serif;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -97,6 +103,9 @@
   padding: 20px;
   border-radius: 4px;
   min-width: 200px;
+}
+.card p {
+  font-family: 'Libre Baskerville', serif;
 }
 
 .card-baixo {
