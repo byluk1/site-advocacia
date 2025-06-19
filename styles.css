@@ -1,0 +1,182 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #21373d;
+}
+
+.body-sobre {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1b1c21;
+
+}
+
+/* Header e Navbar */
+.site-header {
+  background-color: #3c4955;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+.logo-text {
+      display: flex;
+      justify-content: center;
+      color: #f9c700;
+      font-weight: bold;
+      font-size: 1.8vh;
+    }
+
+.imagem-logo {
+  width: 100%;
+  max-height: 600px;
+  /* ou outro valor que preferir */
+  object-fit: contain;
+
+}
+
+/* Sections */
+.section {
+  color: #F5F5DC;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-card {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
+
+
+
+.section h2 {
+  color: #F5F5DC;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Cards */
+.cards {
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 20px;
+  background: #f4f4f4;
+  flex: 1;
+  padding: 20px;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+.card-baixo {
+  text-align: center;
+  margin-top: 20px;
+  background: #f4f4f4;
+  flex: 1;
+  padding: 20px;
+  border-radius: 4px;
+  width: 100px;
+}
+
+/* Notícias */
+.news-item {
+  background: #e9ecef;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.news-item a {
+  color: #004080;
+  text-decoration: none;
+}
+
+/* Contato */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsividade */
+  @media (max-width: 900px) {
+    .site-header {
+      background-color: #3c4955;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+    }
+
+    .link {
+      text-decoration: none;
+      color: white;
+      font-size: 2.5vh;
+
+    }
+
+    .link:hover {
+      color: #f9c700;
+    }
+
+    .logo-text {
+      display: flex;
+      justify-content: center;
+      color: #f9c700;
+      font-weight: bold;
+      font-size: 2.5vh;
+    }
+  }
