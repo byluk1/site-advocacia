@@ -109,6 +109,13 @@ footer {
     max-width: 1200px;
     margin: auto;
   }
+  .section h1 {
+    color: #C9A038;
+    font-size: 25px;
+  }
+  .section p {
+    font-size: 15px;
+  }
 
   footer {
     background: #222;
