@@ -1,6 +1,4 @@
-:root {
-  --fonte-titulo: 'Merriweather', serif;
-}
+
 
 * {
   margin: 0;
@@ -9,7 +7,8 @@
 }
 
 .site-header {
-  background-color: #3c4955;
+  background-color:  #1F2B30;
+  text-align: center;
 }
 
 .navbar {
@@ -23,19 +22,13 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
+  font-family: 'Merriweather', serif;
 
 }
 
-.link:hover {
-  color: #f9c700;
-}
-
-.logo-text {
-  display: flex;
-  justify-content: center;
-  color: #f9c700;
-  font-weight: bold;
-  font-size: 40px;
+.logo-texto {
+  height: auto;
+ width:400px;
 }
 
 .section-sobre {
@@ -50,7 +43,7 @@
 }
 
 .section-sobre h2 {
-  color: #F5F5DC;
+  color: #C9A038;
   font-size: 3em;
   font-family: 'Merriweather', serif;
 
@@ -67,12 +60,11 @@
 }
 
 footer {
-  background: #222;
-  color: white;
+  background: #12191C;
+  color: #FAFAFA;
   text-align: center;
   padding: 20px;
 }
-
 @media (max-width: 1200px) {
   .site-header {
     background-color: #3c4955;

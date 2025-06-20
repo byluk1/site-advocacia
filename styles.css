@@ -24,7 +24,8 @@
 
 
 .site-header {
-  background-color: #3c4955;
+  background-color:  #1F2B30;
+  text-align: center;
 }
 
 .navbar {
@@ -42,13 +43,9 @@
 
 }
 
-.logo-text {
-  display: flex;
-  justify-content: center;
-  color: #f9c700;
-  font-weight: bold;
-  font-size: 40px;
-  font-family: 'Merriweather', serif;
+.logo-texto {
+  height: auto;
+ width:400px;
 }
 
 .imagem-logo {
@@ -79,13 +76,14 @@
 
 
 .section h2 {
-  color: #F5F5DC;
+  color: #C9A038;
   margin-bottom: 20px;
   font-size: 2rem;
   font-family: 'Merriweather', serif;
 }
 .section p {
   font-family: 'Libre Baskerville', serif;
+  color: #FAFAFA;
 }
 
 /* Cards */
@@ -98,7 +96,7 @@
 
 .card {
   margin-top: 20px;
-  background: #f4f4f4;
+  background: #FAFAFA;
   flex: 1;
   padding: 20px;
   border-radius: 4px;
@@ -155,8 +153,8 @@ button {
 
 /* Footer */
 footer {
-  background: #222;
-  color: white;
+  background: #12191C;
+  color: #FAFAFA;
   text-align: center;
   padding: 20px;
 }
