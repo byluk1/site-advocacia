@@ -1,13 +1,12 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 .site-header {
-  background-color:  #1F2B30;
+  background-color: #1F2B30;
   text-align: center;
 }
 
@@ -28,7 +27,7 @@
 
 .logo-texto {
   height: auto;
- width:400px;
+  width: 400px;
 }
 
 .section-sobre {
@@ -55,6 +54,7 @@
   font-size: 20px;
 
 }
+
 .section-sobre img {
   height: 50vh;
 }
@@ -65,7 +65,9 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
 @media (max-width: 1200px) {
+
   .site-header {
     background-color: #1F2B30;
   }
@@ -73,7 +75,7 @@ footer {
   .navbar {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 
   }
 
@@ -88,10 +90,10 @@ footer {
     color: #f9c700;
   }
 
- .logo-texto {
-  height: auto;
- width:300px;
-}
+  .logo-texto {
+    height: auto;
+    width: 300px;
+  }
 
 
   .section-sobre {
@@ -104,6 +106,10 @@ footer {
     text-align: center;
     background-color: #1b1c21;
     font-size: 15px;
+  }
+
+  .section-sobre img {
+    width: 350px;
   }
 
   .section-sobre p {
@@ -119,9 +125,11 @@ footer {
     text-align: center;
 
   }
+
   .section-sobre img {
-  height: 35vh;
-}
+    height: auto;
+    width: 40vh ;
+  }
 
 
 
