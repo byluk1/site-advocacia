@@ -29,13 +29,16 @@
 }
 
 .navbar {
+  border-top: solid #2c3144 ;
+  border-width: 1px;
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 120px;
 
 }
 
 .link {
+  
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -166,6 +169,7 @@ footer {
   }
 
   .navbar {
+    border-width: 1.5px;
     display: flex;
     justify-content: center;
     gap: 30px;
