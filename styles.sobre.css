@@ -55,6 +55,7 @@
   color: #F5F5DC;
   font-family: 'Libre Baskerville', serif;
   font-size: 20px;
+  margin: 0 300px 0 300px;
 
 }
 
@@ -119,7 +120,8 @@ footer {
   .section-sobre p {
     color: #F5F5DC;
     font-family: Arial, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    margin: 0;
 
   }
 
